@@ -1,7 +1,10 @@
 package com.breadstone.lottogen.presentation.numlist
 
 import com.breadstone.core.BaseViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class NumListViewModel : BaseViewModel() {
+@HiltViewModel
+class NumListViewModel @Inject constructor(): BaseViewModel() {
 
 }
