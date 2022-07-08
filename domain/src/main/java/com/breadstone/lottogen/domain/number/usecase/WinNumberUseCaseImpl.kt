@@ -1,7 +1,7 @@
-package com.breadstone.lottogen.domain.usecase
+package com.breadstone.lottogen.domain.number.usecase
 
-import com.breadstone.lottogen.domain.entity.WinNumber
-import com.breadstone.lottogen.domain.repository.WinNumberRepository
+import com.breadstone.lottogen.domain.number.entity.WinNumber
+import com.breadstone.lottogen.domain.number.repository.WinNumberRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

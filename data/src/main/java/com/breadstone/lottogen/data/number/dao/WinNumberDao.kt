@@ -15,7 +15,7 @@ interface WinNumberDao {
     suspend fun getLatestDrwNo(): Int
 
     @Query("SELECT * FROM WinNumber WHERE drwNo=:drwNo")
-    suspend fun getLatestDrwNo(drwNo: Int): WinNumberDto
+    suspend fun get(drwNo: Int): WinNumberDto
 
     @Query("SELECT * FROM WinNumber")
     suspend fun getAll(): List<WinNumberDto>
