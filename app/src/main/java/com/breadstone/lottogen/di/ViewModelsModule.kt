@@ -1,5 +1,6 @@
 package com.breadstone.lottogen.di
 
+import com.breadstone.lottogen.domain.number.usecase.WinNumberUseCase
 import com.breadstone.lottogen.presentation.MainViewModel
 import com.breadstone.lottogen.presentation.numlist.NumListViewModel
 import com.breadstone.lottogen.presentation.store.StoreViewModel
@@ -18,11 +19,13 @@ class ViewModelsModule {
 
     @Provides
     fun provideWinNumberViewModel(
-    ) = WinNumberViewModel()
+        winNumberUseCase: WinNumberUseCase
+    ) = WinNumberViewModel(winNumberUseCase)
 
     @Provides
     fun provideNumListViewModel(
-    ) = NumListViewModel()
+        winNumberUseCase: WinNumberUseCase
+    ) = NumListViewModel(winNumberUseCase)
 
     @Provides
     fun provideStoreViewModel(

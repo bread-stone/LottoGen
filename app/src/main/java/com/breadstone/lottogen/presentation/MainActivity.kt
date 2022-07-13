@@ -15,6 +15,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(R.layout.a
         super.onCreate(savedInstanceState)
         binding.lifecycleOwner = this
 
+
     }
 
 
