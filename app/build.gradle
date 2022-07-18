@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -98,5 +99,8 @@ dependencies {
     implementation "com.github.bumptech.glide:compiler:4.11.0"
     implementation "com.github.bumptech.glide:annotations:4.12.0"
     implementation "jp.wasabeef:glide-transformations:4.3.0"
+
+    /* Google AdMob */
+    implementation 'com.google.android.gms:play-services-ads:21.1.0'
 
 }

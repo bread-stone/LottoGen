@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/winNumberFragment"
+        android:contentDescription="@string/win_number_latest"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="@string/win_number_latest" />
+
+    <item
+        android:id="@+id/numListFragment"
+        android:contentDescription="@string/win_number_list"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/win_number_list" />
+
+    <item
+        android:id="@+id/storeFragment"
+        android:contentDescription="@string/store"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/store" />
+
+</menu>
